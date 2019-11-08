@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap');
 
-$primary: rgb(111,0,255);
+$primary: rgb(255, 0, 43);
 
 body {
     margin: 0;
@@ -26,6 +26,15 @@ header {
 
     a.logo {
         font-weight: bold;
+    }
+
+    img {
+       
+      float: left;
+      width: 50px;
+      border-radius: 50%;
+      padding-left: 100px;
+      
     }
     nav {
         float: right;
