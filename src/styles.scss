@@ -4,7 +4,10 @@
 
 $primary: rgb(255, 0, 43);
 
-
+html{
+    background-color: lightyellow;
+    
+}
 
 body {
     margin: 0;
@@ -13,7 +16,7 @@ body {
 }
 
 .container {
-    margin-top: -45px;
+    
     min-width: 100%;
     margin: 0 auto;
 }
@@ -25,7 +28,7 @@ body {
 
 header {
     background-color: $primary;
-    padding: 1em 0;
+    padding: 1em;
 
     a {
         color: white;
@@ -39,7 +42,7 @@ header {
     img {
       
       float: left;
-      width: 50px;
+      width: 30px;
       padding-right: 25px;
       padding-left: 5px;
      
@@ -67,4 +70,7 @@ header {
 .footer{
     margin-top: 50px;
     text-align: center;
+    color: white;
+    background-color: maroon;
+    padding: 1em;
 }
