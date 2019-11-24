@@ -13,43 +13,51 @@
  #myVideo {
      position: absolute; 
      width: 100% !important;
-     height: 500px !important;
+     height: 640px !important;
      z-index: -1;
      top:0; left:0;
      object-fit: fill;
      opacity: 0.8;
+     
    }
 
 #welcometext{
     color: #fff;
     text-shadow: 2px 2px #000;
     top:0; left:0;
+    height: 640px !important;
 }
+
+
 
 #mekdonalds{
     text-shadow: 5px 5px 10px #FF0000, 0 0 10px #0000FF;
+    font-size: 150px;
 }
 
-
+#welcome-webiste{
+    padding-top: 80px;
+}
 
 //Blinking text
 
 
 @keyframes blink {
-    0% { text-shadow: 0 0 15px #00FF00; }
+    0% { text-shadow: 0 0 15px #00b300; }
     50% { text-shadow: none; }
-    100% { text-shadow: 0 0 15px #00FF00; }
+    100% { text-shadow: 0 0 15px #00b300; }
 }
 
 @-webkit-keyframes blink {
-    0% { text-shadow: 0 0 15px #00FF00; }
+    0% { text-shadow: 0 0 15px #00b300; }
     50% { text-shadow: 0 0 0; }
-    100% { text-shadow: 0 0 15px #00FF00; }
+    100% { text-shadow: 0 0 15px #00b300; }
 }
 
 
 
-.popular-items{
+
+.popular-items-title{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 30px;
@@ -58,6 +66,7 @@
     -ms-animation: blink 3.0s linear infinite;
     -o-animation: blink 3.0s linear infinite;
     animation: blink 3.0s linear infinite;
+    padding-bottom: 50px;
 
 
     
@@ -75,6 +84,8 @@
     margin: 0;
     display: inline-block;
     width: 25%;
+    background-color: white;
+    padding-bottom: 50px;
     
 
 }
@@ -89,7 +100,7 @@
   height: 200px;
   display:block;
   margin:auto;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 
@@ -98,7 +109,8 @@
 
 
 .links{
-    margin-top: 20px;
+  
+    
 }
 
 .links-item{
@@ -106,4 +118,45 @@
     display: inline-block;
     width: 33%;
     text-align: center;
+    min-height: 500px;
+}
+
+.links-item-title{
+   color: white;
+   font-size: 40px;
+   text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+}
+
+.links-item1{
+ background-image: url("../../assets/img/227819bce983c2aa7260ff22d09369d5.jpg");
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.links-item1:hover{
+    opacity: 0.8;
+}
+
+.links-item2:hover{
+    opacity: 0.8;
+}
+
+
+.links-item3:hover{
+    opacity: 0.8;
+}
+
+
+.links-item2{
+    background-image: url("../../assets/img/aboutmc.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.links-item3{
+    background-image: url("../../assets/img/McDonalds.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 34%;
+    
 }
