@@ -39,6 +39,12 @@
     padding-top: 80px;
 }
 
+
+.popular-items{
+    background-image: url("../../assets/img/popular-items.png");
+}
+
+
 //Blinking text
 
 
@@ -84,7 +90,7 @@
     margin: 0;
     display: inline-block;
     width: 25%;
-    background-color: white;
+    background-color: lightyellow;
     padding-bottom: 50px;
     
 
@@ -92,26 +98,30 @@
 
 .menu-item-name{
  text-align: center;
+ font-size: 30px;
  
 }
 
 .menu-item-img{
-  width: 150px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   display:block;
   margin:auto;
   border-radius: 30%;
 }
 
+.menu-item-img:hover{
+    opacity: 0.7;
+}
 
 
 
 
 
 .links{
-  
-    
+    margin-top: 100px;
 }
+
 
 .links-item{
     background-color: grey;
@@ -123,7 +133,7 @@
 
 .links-item-title{
    color: white;
-   font-size: 40px;
+   font-size: 50px;
    text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
 }
 
