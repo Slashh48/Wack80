@@ -1,10 +1,25 @@
 .text-paragraph{
     width: 50%;
     display: inline-block;
+    padding: 20px;
+    margin: 10px;
 }
 
 .image-paragraph{
-    width: 40%;
+    width: 700px;
     display: inline-block;
+    margin-bottom: 200px;
+    margin-left: 100px;
+    border: 10px ridge brown;
  
+}
+
+.text-1{
+    border: 3px outset gray;
+    border-radius: 5px;
+}
+
+.text-2{
+    border: 3px outset gray;
+    border-radius: 5px;
 }
