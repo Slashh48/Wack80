@@ -4,13 +4,15 @@ import { HomeComponent } from './home/home.component';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { JobsComponent } from './jobs/jobs.component';
+import { JobComponent } from './job/job.component';
 
 
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'menu', component: MenuComponent},
   { path: 'about', component: AboutComponent},
-  { path: 'jobs', component: JobsComponent}
+  { path: 'jobs', component: JobsComponent},
+  { path: 'job', component: JobComponent}
 
 
 ];

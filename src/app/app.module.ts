@@ -8,6 +8,7 @@ import { FormsModule } from '@angular/forms';
 import { MenuComponent } from './menu/menu.component';
 import { AboutComponent } from './about/about.component';
 import { JobsComponent } from './jobs/jobs.component';
+import { JobComponent } from './job/job.component';
 
 @NgModule({
   declarations: [
@@ -16,6 +17,7 @@ import { JobsComponent } from './jobs/jobs.component';
     MenuComponent,
     AboutComponent,
     JobsComponent,
+    JobComponent,
     
   ],
   imports: [
