@@ -30,6 +30,16 @@
     }
 }
 
+.ready{
+    text-align: center;
+    margin-top: 100px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #262626;
+    font-style: italic;
+}
+
+
 .apply{
     width: 25%;
     margin: auto;
@@ -48,5 +58,47 @@
     }
     button:hover{
         background-color: #4CCC50;
+    }
+}
+
+#testis{
+    text-align: center;
+    color: #595959;
+    font-style: italic;
+    padding-top: 5px;
+}
+.testimonials{
+    width: 70%;
+    margin: auto;
+    background-image: url("../../assets/img/backgrbuilding.jpg");
+    border-radius: 2%;
+    margin-bottom: 50px;
+    padding-left: 20px;
+    
+    h3{
+        padding-top: 10px;
+    }
+    p{
+        display: inline-block;
+        width: 80%;
+        border: 1px solid #336699;
+        border-radius: 12%;
+        margin-left: 20px;
+        padding: 5px;
+        position: relative;
+        color: #FFF;
+        text-shadow: 2px 2px black;
+        font-size: 20px;
+       
+    }
+    img{
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+    .jessica{
+        position: relative;
+        bottom: 20px;
     }
 }
