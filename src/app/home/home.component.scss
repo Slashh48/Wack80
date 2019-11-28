@@ -49,15 +49,15 @@
 
 
 @keyframes blink {
-    0% { text-shadow: 0 0 15px #00b300; }
+    0% { text-shadow: 0 0 15px #bb0000; }
     50% { text-shadow: none; }
-    100% { text-shadow: 0 0 15px #00b300; }
+    100% { text-shadow: 0 0 15px #bb0000; }
 }
 
 @-webkit-keyframes blink {
-    0% { text-shadow: 0 0 15px #00b300; }
+    0% { text-shadow: 0 0 15px #bb0000; }
     50% { text-shadow: 0 0 0; }
-    100% { text-shadow: 0 0 15px #00b300; }
+    100% { text-shadow: 0 0 15px #bb0000; }
 }
 
 

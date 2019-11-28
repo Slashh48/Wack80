@@ -10,15 +10,25 @@
 }
 
 .menu-items{
-    width: 50%;
+    width: 75%;
     display: inline-block;
     position: relative;
    h1{
        text-align: center;
+       font-size: 50px;
    }
    h2{
     text-align: center;
-}
+    padding-bottom: 50px;
+    font-size: 40px;
+   }
+   h4{
+       text-align: center;
+       width: 50%;
+   }
+   img{
+       width: 170px;
+   }
     
 }
 
@@ -27,5 +37,6 @@
 }
 .item{
     display: inline-block;
-    margin: 100px;
+    width: 23%;
+    margin-bottom: 200px;
 }
