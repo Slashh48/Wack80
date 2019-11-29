@@ -67,16 +67,22 @@
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-align: center;
     font-size: 30px;
-    -webkit-animation: blink 3.0s linear infinite;
-    -moz-animation: blink 3.0s linear infinite;
-    -ms-animation: blink 3.0s linear infinite;
-    -o-animation: blink 3.0s linear infinite;
-    animation: blink 3.0s linear infinite;
+    letter-spacing: 2px;
+    
     padding-bottom: 50px;
 
 
     
 
+}
+
+
+.popular-items{
+    -webkit-animation: blink 3.0s linear infinite;
+    -moz-animation: blink 3.0s linear infinite;
+    -ms-animation: blink 3.0s linear infinite;
+    -o-animation: blink 3.0s linear infinite;
+    animation: blink 3.0s linear infinite;
 }
 
 

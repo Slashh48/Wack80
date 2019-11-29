@@ -18,10 +18,13 @@ const routes: Routes = [
 
 ];
 
-  
+  /* @NgModule({
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  exports: [RouterModule]
+}) */
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
+  imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule]
 })
 
