@@ -7,6 +7,7 @@ import { JobsComponent } from './jobs/jobs.component';
 import { JobComponent } from './job/job.component';
 
 
+
 const routes: Routes = [
   { path: '', component: HomeComponent},
   { path: 'menu', component: MenuComponent},
@@ -17,8 +18,12 @@ const routes: Routes = [
 
 ];
 
+  
+
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [RouterModule.forRoot(routes, {scrollPositionRestoration: 'enabled'})],
   exports: [RouterModule]
 })
+
+
 export class AppRoutingModule { }
