@@ -7,25 +7,48 @@
     <a href="#" routerLink="/" class="logo">WackDonalds</a>
     <nav>
       <ul>
-        <li><a href="#" routerLink="/">Home</a></li>
-        <li><a href="#" routerLink="/menu">Menu</a></li>
-        <li><a href="#" routerLink="/about">About/Contact</a></li>
-        <li><a href="#" routerLink="/jobs">Jobs</a></li>
+        <li><a class="main-links" href="#" routerLink="/">Home</a></li>
+        <li><a class="main-links" href="#" routerLink="/menu">Menu</a></li>
+        <li><a class="main-links" href="#" routerLink="/about">About/Contact</a></li>
+        <li><a class="main-links" href="#" routerLink="/jobs">Jobs</a></li>
+         <div class="hamburgler" (click)="ToggleDisplay()">
+          <div class="bar1"></div>
+          <div class="bar2"></div>
+          <div class="bar3"></div>
+          
+        </div> 
       </ul>
     </nav>
   </div>
 </header>
 
 <div class="container">
+    <ul id="hamburger_items">
+        <li><a href="#" routerLink="/">Home</a></li>
+        <li><a href="#" routerLink="/menu">Menu</a></li>
+        <li><a href="#" routerLink="/about">About/Contact</a></li>
+        <li><a href="#" routerLink="/jobs">Jobs</a></li>
+    </ul>
 <router-outlet></router-outlet>
 </div>
 
 
-<script>
-  document.getElementById('myVideo').play();
-</script>
+
 <footer>
   <div class="footer">
     <p>Made by Nemanja Gligovic aka Lightskin Avatar, 2019</p>
   </div>
 </footer>
+
+<script>
+  function ToggleDisplay() {
+ 
+ var x = document.getElementById("hamburger_items");
+ if (x.style.display === "none") {
+   x.style.display = "block";
+ } else {
+   x.style.display = "none";
+ }
+
+} 
+</script>
