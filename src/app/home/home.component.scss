@@ -2,7 +2,7 @@
     
     text-align: center;
     font-size: 50px;
-    min-width: 100%;
+    width: 100%;
     position:relative;
     display:inline-block;
     
@@ -133,7 +133,7 @@
     display: inline-block;
     width: 33%;
     text-align: center;
-    min-height: 500px;
+    height: 500px;
 }
 
 .links-item-title{
@@ -173,5 +173,124 @@
     background-repeat: no-repeat;
     background-size: cover;
     width: 34%;
+    
+}
+
+//Responsive 
+
+@media only screen and (max-width: 850px) {
+ 
+    #mekdonalds{
+        font-size: 50px;
+    }
+    .popular-items-title{
+        background-image: none;
+    }
+
+
+
+
+    .menu-item{
+        margin: 0;
+        display: inline-block;
+        width: 25%;
+        padding-bottom: 50px;
+        
+    
+    }
+    
+    .menu-item-name{
+     text-align: center;
+     font-size: 16px;
+     
+    }
+    
+    .menu-item-img{
+      width: 100px;
+      height: 100px;
+      display:block;
+      margin:auto;
+      border-radius: 30%;
+    }
+
+
+
+
+
+
+
+    .links-item{
+        background-color: grey;
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+        height: 500px;
+    }
+    
+    .links-item-title{
+       color: white;
+       font-size: 30px;
+       text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+    }
+    
+    
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1400px) {
+ 
+    #mekdonalds{
+        font-size: 100px;
+    }
+    .popular-items-title{
+        background-image: none;
+    }
+
+
+
+
+    .menu-item{
+        margin: 0;
+        display: inline-block;
+        width: 25%;
+        padding-bottom: 50px;
+        
+    
+    }
+    
+    .menu-item-name{
+     text-align: center;
+     font-size: 32px;
+     
+    }
+    
+    .menu-item-img{
+      width: 200px;
+      height: 200px;
+      display:block;
+      margin:auto;
+      border-radius: 30%;
+    }
+
+
+
+
+
+
+
+    .links-item{
+        background-color: grey;
+        display: inline-block;
+        width: 33%;
+        text-align: center;
+        height: 500px;
+    }
+    
+    .links-item-title{
+       color: white;
+       font-size: 50px;
+       text-shadow: -1px 0 black, 0 3px black, 3px 0 black, 0 -1px black;
+    }
+    
     
 }

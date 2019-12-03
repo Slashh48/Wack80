@@ -1,10 +1,4 @@
-.image-intro{
-    width: 100%;
-    text-align: center;
-    display:block;
-    background-color: rgb(208,0,24);
-   
-}
+
 
 .text-intro{
     width: 60%;
@@ -101,4 +95,40 @@
         position: relative;
         bottom: 20px;
     }
+}
+
+
+
+//Responsive 
+
+@media only screen and (max-width: 850px) {
+    .employees{
+        width: 80%;
+        margin: auto;
+        padding-top: 100px;
+        img{
+            display: inline-block;
+            margin: 10px;
+            width: 300px;
+            
+        }
+    }
+
+
+    .ready{
+        
+        font-size: 20px;
+        
+    }
+
+    .apply{
+       
+        padding: 50px;
+          
+    }
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1400px) {
+    
 }

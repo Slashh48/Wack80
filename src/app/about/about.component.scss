@@ -23,3 +23,47 @@
     border: 3px outset gray;
     border-radius: 5px;
 }
+
+
+
+
+//Responsive 
+
+@media only screen and (max-width: 850px) {
+
+    .text-paragraph{
+        width: 90%;
+        display: inline-block;
+        padding: 20px;
+        margin: auto;
+    }
+
+    .image-paragraph{
+        width: 90%;
+        display: inline-block;
+        
+        margin: auto;
+
+    }
+
+}
+
+
+@media only screen and (min-width: 850px) and (max-width: 1400px) {
+
+    .text-paragraph{
+        width: 50%;
+        display: inline-block;
+        padding: 20px;
+        margin: 10px;
+    }
+    
+    .image-paragraph{
+        width: 400px;
+        display: inline-block;
+        margin-bottom: 200px;
+        margin-left: 50px;
+        border: 10px ridge brown;
+     
+    }
+}
