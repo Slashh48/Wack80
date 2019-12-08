@@ -23,12 +23,14 @@
 </header>
 
 <div class="container">
+  <div class="widescreen-hamburger">
     <ul id="hamburger_items">
         <li><a href="#" routerLink="/">Home</a></li>
         <li><a href="#" routerLink="/menu">Menu</a></li>
         <li><a href="#" routerLink="/about">About/Contact</a></li>
         <li><a href="#" routerLink="/jobs">Jobs</a></li>
     </ul>
+  </div>
 <router-outlet></router-outlet>
 </div>
 
@@ -39,16 +41,3 @@
     <p>Made by Nemanja Gligovic aka Lightskin Avatar, 2019</p>
   </div>
 </footer>
-
-<script>
-  function ToggleDisplay() {
- 
- var x = document.getElementById("hamburger_items");
- if (x.style.display === "none") {
-   x.style.display = "block";
- } else {
-   x.style.display = "none";
- }
-
-} 
-</script>

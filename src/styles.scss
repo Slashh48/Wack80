@@ -25,9 +25,9 @@ body {
    
 }
 
-#hamburger_items{
-    display: none;
-}
+
+
+
 
 header {
     background-color: #000;
@@ -74,7 +74,11 @@ header {
 
 
 //Responsive
-
+@media only screen and (min-width: 700px) {
+    .widescreen-hamburger{
+        display: none !important; 
+    }
+}
 @media only screen and (max-width: 700px) {
     .hamburgler {
         display: block;
@@ -97,7 +101,7 @@ header {
 
       #hamburger_items{
         display: none;
-        //display: block;
+        
        
         a {
             color: white;
@@ -110,21 +114,18 @@ header {
     
          
           background-color: #000;
-         padding: 1em;
+     
         list-style-type: none;
             margin: 0;
             position: relative;
+        
            
            
+           a:hover{
+               background-color: darkred;
+           }
 
-            li a {
-                padding: 1em;
-                
-
-                &:hover {
-                    background: darken($primary, 10%);
-                }
-            }
+          
     }
 
     
